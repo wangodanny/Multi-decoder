@@ -14,7 +14,7 @@ method_list={
   "6":morse,
 }
 
-print("Enter decryption method(s), use spaces to separate methdos in parallel, and '-' to separate methods in series:")
+print("Enter decryption method(s), use spaces to separate methods in parallel, and '-' to separate methods in series:")
 print("    1: Atbash cipher")
 print("    2: Caesar cipher")
 print("    3: A1Z26")
