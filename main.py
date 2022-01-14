@@ -3,7 +3,7 @@ from atbash import atbash
 from a1z26 import a1z26
 from vigenere import vigenere
 from bases import bases
-from Engima import enigma
+from morse import morse
 
 method_list={
   "1":atbash,
@@ -11,7 +11,7 @@ method_list={
   "3":a1z26,
   "4":vigenere,
   "5":bases,
-  "6"
+  "6":morse,
 }
 
 print("Enter decryption method(s), use spaces to separate methdos in parallel, and '-' to separate methods in series:")
@@ -20,6 +20,7 @@ print("    2: Caesar cipher")
 print("    3: A1Z26")
 print("    4: Vigenere")
 print("    5: Number bases")
+print("    6: Morse code")
 methods=input("> ").split(" ")
 message=list(input("Enter message: ").lower())
 for bit in methods:
